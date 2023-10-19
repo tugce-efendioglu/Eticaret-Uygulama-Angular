@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const uri = "mongodb+srv://mongodb:1@eticaretdb.xh6rbxv.mongodb.net/?retryWrites=true&w=majority";
-
+//test
 const connection = () =>{
     mongoose.connect(uri,{
         useNewUrlParser: true,
